@@ -1,15 +1,19 @@
-DATABASE MIGRATION
+#DATABASE MIGRATION
 
 In VSCode run:
+```
     dotnet new console -o EFexemplo   
     cd EFexemplo
     dotnet add package Microsoft.EntityFrameworkCore.SqlServer
     dotnet tool update --global dotnet-ef 
     dotnet ef migrations add InitialCreate --context CompanyContext
     dotnet ef database update --context CompanyContext
+```
 
 Data base will be saved at:
+```
     C:\Users\<Name>\AppData\Local\DBNAME.db
+```
 
 To add properties use:
     dotnet ef migrations add Add"Property Name Here"ToModel --context CompanyContext
