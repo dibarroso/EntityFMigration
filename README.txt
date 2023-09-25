@@ -1,6 +1,6 @@
 In VSCode run:
     dotnet new console -o EFexemplo   
-    >> cd EFexemplo
+    cd EFexemplo
     dotnet add package Microsoft.EntityFrameworkCore.SqlServer
     dotnet tool update --global dotnet-ef 
     dotnet ef migrations add InitialCreate --context CompanyContext
