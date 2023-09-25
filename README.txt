@@ -1,3 +1,5 @@
+DATABASE MIGRATION
+
 In VSCode run:
     dotnet new console -o EFexemplo   
     cd EFexemplo
