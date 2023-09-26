@@ -21,7 +21,9 @@ To add properties use:
     -then update migration.
 
 Migration data is saved in namespace Project.Migrations.
+
 Entity Manager is defined in namespace Project.Data.
+
 Entity models are defined in namespace Project.Models.
 
 CRUD API examples are in Program.cs, always save changes after operations
