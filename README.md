@@ -17,11 +17,11 @@ Data base will be saved at:
 ```
 
 To add properties use:
-    dotnet ef migrations add Add"Property Name Here"ToModel --context CompanyContext
-    then update migration
+    dotnet ef migrations add Add"Property Name Here"ToModel --context CompanyContext;
+    then update migration;
 
-Migration data is saved in namespace Project.Migrations
-Entity Manager is defined in namespace Project.Data
-Entity models are defined in namespace Project.Models
+Migration data is saved in namespace Project.Migrations;
+Entity Manager is defined in namespace Project.Data;
+Entity models are defined in namespace Project.Models;
 
 CRUD API examples are in Program.cs, always save changes after operations
