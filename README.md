@@ -1,5 +1,5 @@
 # DATABASE MIGRATION
-This project includes Entity framework CRUD operation API, project setup, and code migration code --> database
+This project includes Entity framework CRUD operation API, project setup, and code migration code --> database;
 
 In VSCode run:
 ```
